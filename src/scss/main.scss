@@ -41,3 +41,48 @@ $secondaryColorDark: color.scale($secondaryColor, $lightness: -15%);
   border-color: $secondaryColorDark;
   color: white;
 }
+
+// navbar
+.navbar-brand a {
+  p {
+    color: $primaryColor;
+    font-size: 1rem;
+  }
+  span {
+    color: $secondaryColor;
+  }
+}
+.navbar-end a {
+  color: $secondaryColor;
+}
+.is-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* дээр харагдахаар */
+  background-color: #f5f5f5; /* эсвэл өөр өнгө */
+}
+.navbar-shadow {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.navbar-brand .image img {
+  max-width: 64px;
+  height: auto;
+}
+.navbar-item {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* зураг, текстийн хооронд зай */
+}
+// Цэсийг баруун тал руу зэрэгцүүлэх. Navbar.js-д .navbar-main-menu классыг ашигласан.
+.navbar-main-menu {
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+// лого арын өнгө цагаан тул hover хийх үед ялгарч харагдахгүй болгов.
+.navbar-brand .logo-item:hover,
+.navbar-brand .logo-item:focus,
+.navbar-brand .logo-item:active {
+  background-color: transparent;
+  color: inherit;
+  box-shadow: none;
+}
