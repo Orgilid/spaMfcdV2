@@ -1,3 +1,5 @@
+import { t, toggleLanguage } from "../i18n/i18n.js";
+
 export function renderNavbar() {
   return `
     <header class="is-sticky navbar-shadow">
@@ -8,7 +10,7 @@ export function renderNavbar() {
               <figure class="image">
                 <img src="./img/icon/icon.png" alt="logo" />
               </figure>
-              <p><span>Mongolian</span> Food Composition Database</p>
+              <p><span>${t("nav.brandSpan")}</span> ${t("nav.brand")}</p>
             </a>
 
             <a
@@ -30,37 +32,37 @@ export function renderNavbar() {
                 <span class="icon has-text-warning">
                   <i class="fas fa-circle-question"></i>
                 </span>
-                <span>Overview</span>
+                <span>${t("nav.overview")}</span>
               </a>
                 <a href="#/search" class="navbar-item">
                   <span class="icon has-text-primary">
                     <i class="fas fa-search"></i>
                   </span>
-                  <span>Search</span>
+                  <span>${t("nav.search")}</span>
                 </a>
                 <a href="#/calculation" class="navbar-item">
                   <span class="icon has-text-link">
                     <i class="fas fa-calculator"></i>
                   </span>
-                  <span>Food Calculator</span>
+                  <span>${t("nav.calculation")}</span>
                 </a>
                 <a href="#/books" class="navbar-item">
                   <span class="icon has-text-info">
                     <i class="fas fa-book"></i>
                   </span>
-                  <span>Books</span>
+                  <span>${t("nav.books")}</span>
                 </a>
 
                 <a href="#/contact" class="navbar-item">
                   <span class="icon has-text-danger">
                     <i class="fas fa-address-card"></i>
                   </span>
-                  <span>Contact us</span>
+                  <span>${t("nav.contact")}</span>
                 </a>
             </div>
 
             <div class="navbar-end">
-              <a href="#" class="navbar-item">MN</a>
+              <a href="#" id="language-toggle" class="navbar-item">${t("nav.language")}</a>
             </div>
           </div>
         </div>
@@ -71,15 +73,32 @@ export function renderNavbar() {
 
 export function initNavbar() {
   const burger = document.querySelector(".navbar-burger");
-  const menu = document.getElementById("navbarMenu");
+  const languageToggle = document.getElementById("language-toggle");
 
-  if (!burger || !menu) return;
+  if (burger) {
+    const targetId = burger.dataset.target;
+    const menu = document.getElementById(targetId);
 
-  burger.addEventListener("click", () => {
-    burger.classList.toggle("is-active");
-    menu.classList.toggle("is-active");
+    burger.addEventListener("click", () => {
+      burger.classList.toggle("is-active");
+      menu?.classList.toggle("is-active");
 
-    const isExpanded = burger.classList.contains("is-active");
-    burger.setAttribute("aria-expanded", String(isExpanded));
-  });
+      const isExpanded = burger.classList.contains("is-active");
+      burger.setAttribute("aria-expanded", String(isExpanded));
+    });
+  }
+
+  if (languageToggle) {
+    languageToggle.addEventListener("click", (event) => {
+      event.preventDefault();
+      toggleLanguage();
+      window.location.reload();
+    });
+  }
+}
+
+export function mountNavbar(root) {
+  if (!root) return;
+  root.innerHTML = renderNavbar();
+  initNavbar();
 }

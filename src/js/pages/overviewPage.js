@@ -1,12 +1,12 @@
-import { renderPageLayout } from "../layouts/renderPageLayout.js";
+import { t } from "../i18n/i18n.js";
 
 export function renderOverviewPage() {
   const app = document.getElementById("app");
 
-  app.innerHTML = renderPageLayout({
-    title: "Overview",
-    content: `
-      <p>Welcome to the overview page.</p>
-    `,
-  });
+  app.innerHTML = `
+    <div class="box">
+      <h2 class="title is-4">${t("overview.title")}</h2>
+      <p>${t("overview.welcome")}</p>
+    </div>
+  `;
 }
