@@ -1,6 +1,6 @@
 import { translations } from "./translations.js";
 
-const DEFAULT_LANGUAGE = "en";
+const DEFAULT_LANGUAGE = "mn";
 
 export function getCurrentLanguage() {
   return localStorage.getItem("language") || DEFAULT_LANGUAGE;
