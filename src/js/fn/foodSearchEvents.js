@@ -93,7 +93,7 @@ const DEFAULT_TYPES =
     ?.items.filter((item) => item.checked)
     .map((item) => item.value) || [];
 
-const DEFAULT_ITEM_COUNT = 4;
+const DEFAULT_ITEM_COUNT = 3;
 
 // UI дээрх бүх event (click, change, keydown)-уудыг холбож өгдөг функц
 export function bindSearchEvents() {

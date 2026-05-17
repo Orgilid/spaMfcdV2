@@ -29,7 +29,13 @@ export function renderTable({ title = "", columns = [], rows = [], emptyMessage 
                   .map(
                     (row) => `
                       <tr>
-                        ${columns.map((col) => `<td>${safeValue(row[col.key])}</td>`).join("")}
+                        ${columns
+                          .map((col) => {
+                            const value = typeof col.render === "function" ? col.render(row) : safeValue(row[col.key]);
+
+                            return `<td>${value}</td>`;
+                          })
+                          .join("")}
                       </tr>
                     `,
                   )
