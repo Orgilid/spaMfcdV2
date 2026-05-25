@@ -229,7 +229,7 @@
       "Weight of inedible part (g/1 piece)": null
     },
     "pretreatment_conditions": {
-      "Cooking (processing) method": " direct use, toast. Rye is prepared from a  pure, naturally fermented culture. That is why it has a unique and pleasant taste and smell of rye. Rye bread is contains in various minerals, fiber and E, PP, B vitamins.",
+      "Cooking (processing) method": "direct use, toast. Rye is prepared from a  pure, naturally fermented culture. That is why it has a unique and pleasant taste and smell of rye. Rye bread is contains in various minerals, fiber and E, PP, B vitamins.",
       "Other cooking (processing) conditions": "Remark: People allergic to gluten protein from grains, take note.",
       "Reference for condition setting": "Store for 48 hour at nom higher than 15*C-18*C with relative humidity nk more than 70% in a cool dry place away from sunlight"
     }
@@ -267,7 +267,7 @@
       "Collection area": "Ulaanbaatar city, Talkh chikher LC",
       "Collection date": "11.05.2023",
       "Basis of sample selection": "Commonly consumed food",
-      "Additional collection information": "Product name:Talkh chikher, Atar brand, wheat bread"
+      "Additional collection information": "Product name: Talkh chikher, Atar brand, wheat bread"
     },
     "edible_inedible_part": {
       "Weight of whole part (g/1 piece)": "600",
@@ -314,7 +314,7 @@
       "Collection area": "Ulaanbaatar city, Talkh chikher LC",
       "Collection date": "11.05.2023",
       "Basis of sample selection": "Commonly consumed food",
-      "Additional collection information": "Product name:Talkh chikher, Special brand, Multi-seeded crop, fortified multigrain"
+      "Additional collection information": "Product name: Talkh chikher, Special brand, Multi-seeded crop, fortified multigrain"
     },
     "edible_inedible_part": {
       "Weight of whole part (g/1 piece)": "250",
@@ -361,7 +361,7 @@
       "Collection area": "Ulaanbaatar city, Green industry LLC",
       "Collection date": "11.05.2023",
       "Basis of sample selection": "Commonly consumed food",
-      "Additional collection information": "Product name:  Lapsha, Ribbon noodle with multigrain flour"
+      "Additional collection information": "Product name: Lapsha, Ribbon noodle with multigrain flour"
     },
     "edible_inedible_part": {
       "Weight of whole part (g/1 piece)": "300",
@@ -408,7 +408,7 @@
       "Collection area": "Ulaanbaatar city, Monfood land LLC",
       "Collection date": "23.11.2021",
       "Basis of sample selection": "Commonly consumed food",
-      "Additional collection information": "Product name:  Oat flour"
+      "Additional collection information": "Product name: Oat flour"
     },
     "edible_inedible_part": {
       "Weight of whole part (g/1 piece)": "500",
@@ -452,7 +452,7 @@
       "Refuse (%)": 0.0
     },
     "collection_information": {
-      "Collection area": "Ulaanbaatar city, Monfood land",
+      "Collection area": "Ulaanbaatar city, Monfood land LLC",
       "Collection date": "23.11.2021",
       "Basis of sample selection": "Commonly consumed food",
       "Additional collection information": null
@@ -546,7 +546,7 @@
       "Refuse (%)": 0.0
     },
     "collection_information": {
-      "Collection area": "Darkhan-Uul province,Plant Protection and Research Institute",
+      "Collection area": "Darkhan-Uul province, Plant Protection and Research Institute",
       "Collection date": "23.11.2021",
       "Basis of sample selection": "Commonly consumed food",
       "Additional collection information": null
@@ -640,7 +640,7 @@
       "Refuse (%)": 0.0
     },
     "collection_information": {
-      "Collection area": "Darkhan-Uul province, Ulaanbaatar flour mill JSC ",
+      "Collection area": "Darkhan-Uul province, Ulaanbaatar flour mill JSC",
       "Collection date": "24.11.2021",
       "Basis of sample selection": "Commonly consumed food",
       "Additional collection information": null
@@ -878,7 +878,7 @@
       "Collection area": "Ulaanbaatar city, Taivanzul LLC",
       "Collection date": "22.05.2023",
       "Basis of sample selection": "Commonly consumed food",
-      "Additional collection information": "Product name:  Tungalag, vermicelli"
+      "Additional collection information": "Product name: Tungalag, vermicelli"
     },
     "edible_inedible_part": {
       "Weight of whole part (g/1 piece)": "450",
@@ -1019,7 +1019,7 @@
       "Collection area": "Ulaanbaatar city, Monfood land LLC",
       "Collection date": "22.05.2023",
       "Basis of sample selection": "Commonly consumed food",
-      "Additional collection information": "Product name:  Flax flour"
+      "Additional collection information": "Product name: Flax flour"
     },
     "edible_inedible_part": {
       "Weight of whole part (g/1 piece)": "500",
@@ -1066,7 +1066,7 @@
       "Collection area": "Ulaanbaatar city, Monfood land LLC",
       "Collection date": "23.11.2021",
       "Basis of sample selection": "Commonly consumed food",
-      "Additional collection information": "Product name:  Flax seeds"
+      "Additional collection information": "Product name: Flax seeds"
     },
     "edible_inedible_part": {
       "Weight of whole part (g/1 piece)": "500",
@@ -2476,7 +2476,7 @@
       "Collection area": "Uvs province, Uvs food JSC",
       "Collection date": "05.10.2021",
       "Basis of sample selection": "Commonly consumed food",
-      "Additional collection information": "Product name:Seabuckthorn condenced jiuce"
+      "Additional collection information": "Product name: Seabuckthorn condenced jiuce"
     },
     "edible_inedible_part": {
       "Weight of whole part (g/1 piece)": "35",
@@ -2528,7 +2528,7 @@
     "edible_inedible_part": {
       "Weight of whole part (g/1 piece)": "0.51",
       "Weight of edible part (g/1 piece)": "0.49",
-      "Inedible part (discarded part)": " stem, seeds",
+      "Inedible part (discarded part)": "stem, seeds",
       "Weight of inedible part (g/1 piece)": "0.02"
     },
     "pretreatment_conditions": {
@@ -3037,7 +3037,7 @@
       "Refuse (%)": 16.7
     },
     "collection_information": {
-      "Collection area": "Selenge province, Gatsuurt  LC",
+      "Collection area": "Selenge province, Gatsuurt LLC",
       "Collection date": "09.03.2023",
       "Basis of sample selection": "Commonly consumed food",
       "Additional collection information": null
@@ -3060,7 +3060,7 @@
     "food_name": "Yak, Borts (dried meat)",
     "scientific_name": "Bos grunniens",
     "native_name": "Сарлагийн борц",
-    "province": "Arkhangai ",
+    "province": "Arkhangai",
     "proximates": {
       "Energy (kcal)": 503,
       "Water (g)": 8.2,
