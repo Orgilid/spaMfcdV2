@@ -30,6 +30,8 @@ $secondaryColorDark: color.scale($secondaryColor, $lightness: -15%);
 @import "./components/sidebarMenuList";
 @import "./layouts/pageTableContentsLayout";
 @import "./components/imageModal";
+@import "./components/map";
+@import "./components/overviewText";
 
 // Mobile (<768px) → Sidebar = slide menu (hidden → open)
 // Tablet (≤1023px) → зөвхөн хэмжээ багасгана
@@ -79,6 +81,11 @@ $secondaryColorDark: color.scale($secondaryColor, $lightness: -15%);
   .app-tbl {
     font-size: 0.9rem;
   }
+
+  // .app-txt {
+  //   font-size: 1rem;
+  //   line-height: 1.7;
+  // }
 }
 
 /* =========================
@@ -143,6 +150,11 @@ $secondaryColorDark: color.scale($secondaryColor, $lightness: -15%);
   .app-tbl {
     font-size: 0.7rem;
   }
+
+  // .app-txt {
+  //   font-size: 0.95rem;
+  //   line-height: 1.65;
+  // }
 }
 
 /* =========================
@@ -160,4 +172,9 @@ $secondaryColorDark: color.scale($secondaryColor, $lightness: -15%);
   .app-subtitle {
     font-size: 0.95rem;
   }
+
+  // .app-txt {
+  //   font-size: 0.9rem;
+  //   line-height: 1.6;
+  // }
 }

@@ -242,49 +242,49 @@ export function renderDefaultTables(data) {
 }
 
 // Overview page-аас шилжихдээ хайх үгийг хадгалсан бол тэр үгээр хайх үйлдлийг автоматаар хийх функц
-// function applyPendingSelectedFoodsFromOverview() {
-//   const raw = sessionStorage.getItem("pendingSelectedFoods");
-//   if (!raw) return;
+export function applyPendingSelectedFoodsFromOverview() {
+  const raw = sessionStorage.getItem("pendingSelectedFoods");
+  if (!raw) return;
 
-//   let selectedFoods = [];
+  let selectedFoods = [];
 
-//   try {
-//     selectedFoods = JSON.parse(raw);
-//   } catch (error) {
-//     console.error("Invalid pendingSelectedFoods:", error);
-//     sessionStorage.removeItem("pendingSelectedFoods");
-//     return;
-//   }
+  try {
+    selectedFoods = JSON.parse(raw);
+  } catch (error) {
+    console.error("Invalid pendingSelectedFoods:", error);
+    sessionStorage.removeItem("pendingSelectedFoods");
+    return;
+  }
 
-//   if (!Array.isArray(selectedFoods) || !selectedFoods.length) {
-//     sessionStorage.removeItem("pendingSelectedFoods");
-//     return;
-//   }
+  if (!Array.isArray(selectedFoods) || !selectedFoods.length) {
+    sessionStorage.removeItem("pendingSelectedFoods");
+    return;
+  }
 
-//   const searchTxt = document.getElementById("searchTxt");
-//   const searchSection = document.getElementById("search");
+  const searchTxt = document.getElementById("searchTxt");
+  const searchSection = document.getElementById("search");
 
-//   if (searchTxt) {
-//     searchTxt.value = "";
-//   }
+  if (searchTxt) {
+    searchTxt.value = "";
+  }
 
-//   document.querySelectorAll('input[name="foodcode"]').forEach((checkbox) => {
-//     checkbox.checked = false;
-//   });
+  document.querySelectorAll('input[name="foodcode"]').forEach((checkbox) => {
+    checkbox.checked = false;
+  });
 
-//   selectedFoods.forEach((food) => {
-//     const checkbox = document.querySelector(`input[name="foodcode"][value="${food.foodCode}"]`);
+  selectedFoods.forEach((food) => {
+    const checkbox = document.querySelector(`input[name="foodcode"][value="${food.food_code}"]`);
 
-//     if (checkbox) {
-//       checkbox.checked = true;
-//     }
-//   });
+    if (checkbox) {
+      checkbox.checked = true;
+    }
+  });
 
-//   handleFoodCodeSearch();
+  handleFoodCodeSearch();
 
-//   if (searchSection) {
-//     searchSection.scrollIntoView({ behavior: "smooth" });
-//   }
+  if (searchSection) {
+    searchSection.scrollIntoView({ behavior: "smooth" });
+  }
 
-//   sessionStorage.removeItem("pendingSelectedFoods");
-// }
+  sessionStorage.removeItem("pendingSelectedFoods");
+}
