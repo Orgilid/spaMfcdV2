@@ -32,6 +32,8 @@ $secondaryColorDark: color.scale($secondaryColor, $lightness: -15%);
 @import "./components/imageModal";
 @import "./components/map";
 @import "./components/overviewText";
+@import "./components/bookCard";
+@import "./components/pdfModal";
 
 // Mobile (<768px) → Sidebar = slide menu (hidden → open)
 // Tablet (≤1023px) → зөвхөн хэмжээ багасгана
