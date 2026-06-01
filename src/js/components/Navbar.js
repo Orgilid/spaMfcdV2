@@ -49,12 +49,7 @@ export function renderNavbar() {
                 <span>${t("nav.books")}</span>
               </a>
 
-              <a class="navbar-item" href="#/contact">
-                <span class="icon has-text-danger">
-                  <i class="fas fa-address-card"></i>
-                </span>
-                <span>${t("nav.contact")}</span>
-              </a>
+
             </div>
 
             <div class="navbar-end">

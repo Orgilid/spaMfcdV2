@@ -22938,6 +22938,44 @@ has-background-danger.is-hoverable:active {
   border: 0;
 }
 
+.app-footer {
+  position: relative;
+  z-index: 10;
+  margin-top: 3rem;
+  background: #f8f9fa;
+  border-top: 1px solid #ddd;
+  padding: 2rem 1.5rem;
+}
+.app-footer .title {
+  margin-bottom: 1rem;
+  color: var(--text-soft);
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+}
+.app-footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+.app-footer li {
+  margin-bottom: 0.5rem;
+}
+.app-footer img {
+  height: 1rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+.app-footer li,
+.app-footer a,
+.app-footer p {
+  font-size: clamp(0.8rem, 1vw, 0.95rem);
+}
+.app-footer a {
+  color: #363636;
+  transition: color 0.2s ease;
+}
+.app-footer a:hover {
+  color: #2bac73;
+}
+
 /* =========================
    DESKTOP (>=769px)
 ========================= */
@@ -22978,6 +23016,7 @@ has-background-danger.is-hoverable:active {
 @media screen and (max-width: 768px) {
   .app-shell {
     display: block; /* Sidebar + main layout-ийг stack болгоно */
+    height: auto;
   }
   .app-mobile-sidebar {
     display: block; /* Mobile дээр гарч ирэх ↪ button */

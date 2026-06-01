@@ -121,6 +121,25 @@ export const translations = {
       province: "аймаг",
       informationWillAppear: "Мэдээлэл энд харагдана.",
     },
+    footer: {
+      teamMembers: "Хамтрагч байгууллагууд",
+      coreMembers: "Төслийн баг",
+
+      projectInvestigators: "Төслийн удирдагч: Б.Энхжаргал, Б.Эркигүл",
+      researchers: "Судлаачид: Б.Буянчимэг, Т.Уламбаяр",
+      others: "Бусад гишүүд: З.Цэрэнханд, Д.Хандсүрэн",
+      softwareDeveloper: "Программ хөгжүүлэгч: Д.Оргил",
+
+      contactInformation: "Холбоо барих",
+      university: "Хөдөө аж ахуйн их сургууль",
+      address: "Зайсан, Хан-Уул дүүрэг, Улаанбаатар 17024, Монгол Улс",
+      phone: "Утас",
+      email: "И-мэйл",
+      afaci: "Азийн хүнс, ХАА-н хамтын ажиллагааны санаачилга",
+      muls: "Хөдөө Аж Ахуйн Их Сургууль",
+      rda: "БНСУ-ын Хөдөөгийн хөгжлийн газар",
+      mfali: "Хүнс, Хөдөө Аж Ахуй, Хөнгөн Үйлдвэрийн Яам",
+    },
   },
   en: {
     nav: {
@@ -244,6 +263,25 @@ export const translations = {
       selected: "Selected",
       province: "province",
       informationWillAppear: "Information will appear here.",
+    },
+    footer: {
+      teamMembers: "Project team members",
+      coreMembers: "Project core members",
+
+      projectInvestigators: "Project investigators: Enkhjargal.B, Erkigul.B",
+      researchers: "Researchers: Buyanchimeg.B, Ulambayar.T",
+      others: "Others: Tserenkhand.Z, Khandsuren.D",
+      softwareDeveloper: "Software developer: Orgil.D",
+
+      contactInformation: "Contact information",
+      university: "Mongolian University of Life Sciences",
+      address: "Zaisan, Khan-Uul district, Ulaanbaatar 17024, Mongolia",
+      phone: "Phone",
+      email: "Email",
+      afaci: "Asian Food and Agriculture Cooperation Initiative",
+      muls: "Mongolian University of Life Sciences",
+      rda: "Rural Development Administration",
+      mfali: "Ministry of Food, Agriculture, and Light Industry",
     },
   },
 };
