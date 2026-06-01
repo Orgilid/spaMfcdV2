@@ -41,7 +41,7 @@ export async function renderSearchPage() {
       renderSidebarPageLayout({
         sidebarContent: `${renderSearchFoodName()} ${renderSearchSettings()} ${renderFoodGroupList(groupedFoods)}`,
         pageId: "search",
-        pageTitle: t("searchPage.title"),
+        pageTitle: t("search.title"),
         mainContent: `
       <div id="resultTbl">
         ${renderDefaultTables(nutritionData)}
