@@ -3,19 +3,19 @@ const fs = require("fs");
 const data = JSON.parse(fs.readFileSync("./src/data/nutritions.json", "utf8"));
 
 const foodGroupMnMap = {
-  "Cereals and Cereal products": "Үр тариа ба үр тариан бүтээгдэхүүн",
-  "Starchy Roots and Starch products": "Цардуулт үндэс ба цардуулан бүтээгдэхүүн",
-  Pulses: "Буурцагт ургамал",
-  "Nuts and Seeds": "Самар ба үр",
+  "Cereals and Cereal products": "Үр тариа, түүгээр хийсэн бүтээгдэхүүн",
+  "Starchy Roots and Starch products": "Цардуул агуулсан хүнс",
+  Pulses: "Буурцагт хүнс",
+  "Nuts and Seeds": "Самар ба тост үр",
   Vegetables: "Хүнсний ногоо",
-  Fruits: "Жимс",
-  "Meat and Meat products": "Мах ба махан бүтээгдэхүүн",
+  Fruits: "Жимс, түүгээр хийсэн бүтээгдэхүүн",
+  "Meat and Meat products": "Мах, махан бүтээгдэхүүн",
   Eggs: "Өндөг",
-  "Fish and Fish products": "Загас ба загасан бүтээгдэхүүн",
-  "Milk and Milk products": "Сүү ба сүүн бүтээгдэхүүн",
-  "Oils and Fats": "Тос ба өөх тос",
-  Seasonings: "Амтлагч",
-  "Prepared foods": "Бэлэн хоол",
+  "Fish and Fish products": "Загас, загасан бүтээгдэхүүн",
+  "Milk and Milk products": "Сүү, сүүн бүтээгдэхүүн",
+  "Oils and Fats": "Өөх, тос",
+  Seasonings: "Амтлагчид",
+  "Prepared foods": "Боловсруулж бэлтгэсэн хүнс буюу бусад",
 };
 
 const provinceMnMap = {
