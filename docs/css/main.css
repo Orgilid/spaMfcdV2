@@ -14,6 +14,17 @@
   --overlay: rgba(15, 23, 42, 0.55);
 }
 
+[data-theme=dark] {
+  --border: #374151;
+  --sidebar-bg: #111827;
+  --page-bg: #0f172a;
+  --text-main: #ffffff;
+  --text-soft: #d1d5db;
+  --active-bg: #1f2937;
+  --hover-bg: #1f2937;
+  --overlay: rgba(0, 0, 0, 0.7);
+}
+
 /* Bulma Utilities */
 :root {
   --bulma-control-radius: var(--bulma-radius);

@@ -26,7 +26,7 @@ export const translations = {
       macroTitle: "Хүнсээр авах илчлэг ба үндсэн шимт бодис",
       microTitle: "Хүнсээр авах амин дэм ба эрдэс бодис",
 
-      amount: "Хэмжээ",
+      amount: "Хэмжээ (г)",
       total: "Нийт",
       percentRequirement: "Хоногт авах хэрэгцээ",
 
@@ -168,7 +168,7 @@ export const translations = {
       macroTitle: "Recommended Daily Energy and Macronutrient Intake from Food",
       microTitle: "Recommended Daily Vitamin and Mineral Intake from Food",
 
-      amount: "Amount",
+      amount: "Amount (g)",
       total: "Total",
       percentRequirement: "% of requirement",
 

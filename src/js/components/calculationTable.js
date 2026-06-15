@@ -190,7 +190,7 @@ function renderMacrosTable(selectedFoods = [], ageOptions = [], selectedAge = ""
         render: (food) => escapeHtml(getFoodName(food)),
       },
       {
-        label: `${t("calculation.amount")} (g)`,
+        label: `${t("calculation.amount")}`,
         render: (food) => {
           const code = escapeHtml(getFoodCode(food));
 
