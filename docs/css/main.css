@@ -22800,8 +22800,8 @@ has-background-danger.is-hoverable:active {
 }
 
 .app-title {
-  font-size: clamp(1.6rem, 3.2vw, 2.25rem);
-  line-height: 1.12;
+  font-size: clamp(1.3rem, 2vw, 2rem);
+  line-height: 1.1;
   letter-spacing: -0.035em;
   font-weight: 800;
   max-width: 760px;
@@ -22820,7 +22820,7 @@ has-background-danger.is-hoverable:active {
   color: #607089;
   font-size: clamp(1rem, 2vw, 1.35rem);
   font-weight: bold;
-  line-height: 1.6;
+  line-height: 1.1;
   max-width: 760px;
   margin-bottom: 2.5rem;
 }
@@ -22894,7 +22894,7 @@ has-background-danger.is-hoverable:active {
 
 .app-txt {
   font-size: clamp(0.8rem, 0.6vw + 0.55rem, 0.95rem);
-  line-height: 1.75;
+  line-height: 1.6;
   color: var(--text-main);
   text-align: justify;
   text-justify: inter-word;
@@ -23011,7 +23011,7 @@ has-background-danger.is-hoverable:active {
 ========================= */
 @media screen and (max-width: 1023px) {
   .app-title {
-    line-height: 1.1;
+    font-size: 1.6rem;
     margin-bottom: 0.9rem;
   }
   .app-subtitle {
@@ -23062,12 +23062,11 @@ has-background-danger.is-hoverable:active {
     margin-bottom: 0.75rem;
   }
   .app-title {
-    font-size: 1.65rem;
-    line-height: 1.15;
+    font-size: 1.3rem;
   }
   .app-subtitle {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1;
     margin-bottom: 1.75rem;
   }
   .app-tbl {

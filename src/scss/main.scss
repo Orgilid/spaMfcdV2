@@ -81,12 +81,8 @@ $secondaryColorDark: color.scale($secondaryColor, $lightness: -15%);
    TABLET (<=1024px)
 ========================= */
 @media screen and (max-width: 1023px) {
-  // .app-main-content {
-  //   padding: 2rem 2rem 2.5rem; /* Desktop-оос арай бага padding */
-  // }
-
   .app-title {
-    line-height: 1.1;
+    font-size: 1.6rem;
     margin-bottom: 0.9rem;
   }
 
@@ -155,13 +151,12 @@ $secondaryColorDark: color.scale($secondaryColor, $lightness: -15%);
   // }
 
   .app-title {
-    font-size: 1.65rem;
-    line-height: 1.15;
+    font-size: 1.3rem;
   }
 
   .app-subtitle {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1;
     margin-bottom: 1.75rem;
   }
   .app-tbl {

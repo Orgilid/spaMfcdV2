@@ -7,11 +7,11 @@ export const translations = {
       books: "Ном",
       contact: "Холбоо барих",
       language: "EN",
-      brandSpan: "Монголын",
-      brand: "хүнсний найрлагын сан",
+      brandSpan: "Монгол улсын",
+      brand: "хүнсний найрлагын мэдээллийн сан",
     },
     overview: {
-      title: "Мэдээллийн сангийн танилцуулга",
+      title: "Хүнсний найрлагын мэдээллийн сан-II",
     },
     books: {
       title: "Ном",
@@ -48,9 +48,9 @@ export const translations = {
 
       searchSettings: "Хайх тохиргоо",
       nutritions: "Шим тэжээл",
-      proximates: "Илчлэг, үндсэн шимт бодис",
-      minerals: "Эрдэс бодис",
-      vitamins: "Амин дэм",
+      proximates: "Илчлэг, үндсэн шимт бодис (100 г)",
+      minerals: "Эрдэс бодис (100 г)",
+      vitamins: "Амин дэм (100 г)",
       sampleInformations: "Дээжийн мэдээлэл",
       collection_information: "Цуглуулсан мэдээлэл",
       edible_inedible_part: "Идэх идэхгүй хэсэг",
@@ -127,7 +127,7 @@ export const translations = {
 
       projectInvestigators: "Төслийн удирдагч: Б.Энхжаргал, Б.Эркигүл",
       researchers: "Судлаачид: Б.Буянчимэг, Т.Уламбаяр",
-      others: "Бусад гишүүд: З.Цэрэнханд, Д.Хандсүрэн",
+      others: "Бусад гишүүд: Т.Энхбат, Ц.Лхагвасүрэн",
       softwareDeveloper: "Программ хөгжүүлэгч: Д.Оргил",
 
       contactInformation: "Холбоо барих",
@@ -190,9 +190,9 @@ export const translations = {
 
       searchSettings: "Search settings",
       nutritions: "Nutritions",
-      proximates: "Proximates",
-      minerals: "Minerals",
-      vitamins: "Vitamins",
+      proximates: "Proximates (100 g)",
+      minerals: "Minerals (100 g)",
+      vitamins: "Vitamins (100 g)",
       sampleInformations: "Sample informations",
       collection_information: "Collection Information",
       edible_inedible_part: "Edible Inedible Part",
@@ -270,7 +270,7 @@ export const translations = {
 
       projectInvestigators: "Project investigators: Enkhjargal.B, Erkigul.B",
       researchers: "Researchers: Buyanchimeg.B, Ulambayar.T",
-      others: "Others: Tserenkhand.Z, Khandsuren.D",
+      others: "Others: Enkhbat.T, Lkhagvasuren.Ts",
       softwareDeveloper: "Software developer: Orgil.D",
 
       contactInformation: "Contact information",

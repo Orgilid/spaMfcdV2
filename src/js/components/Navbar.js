@@ -8,7 +8,8 @@ export function renderNavbar() {
           <div class="navbar-brand">
             <a class="navbar-item has-text-weight-bold is-uppercase app-logo" href="#/overview">
               <figure class="image"><img src="./img/icon/ico.png" alt="logo" /></figure>
-              <p><span class="is-hidden-mobile">${t("nav.brandSpan")}</span> ${t("nav.brand")}</p>
+              <p><span class="is-hidden-mobile">${t("nav.brandSpan")}</span> </p>
+              <p class="is-hidden-mobile">${t("nav.brand")}</p>
             </a>
 
             <a class="navbar-burger" role="button" aria-expanded="false" data-target="topNavbar">
