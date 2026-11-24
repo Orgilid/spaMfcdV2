@@ -126,8 +126,9 @@ export const translations = {
       coreMembers: "Төслийн баг",
 
       projectInvestigators: "Төслийн удирдагч: Б.Энхжаргал, Б.Эркигүл",
-      researchers: "Судлаачид: Б.Буянчимэг, Т.Уламбаяр",
-      others: "Бусад гишүүд: Т.Энхбат, Ц.Лхагвасүрэн",
+      researchers: "Гишүүд: Б.Буянчимэг, Т.Уламбаяр, О.Онон",
+      others: "Т.Энхбат, Ц.Лхагвасүрэн, Д.Дамдинсүрэн",
+      otherss: "З.Ренцэнханд, Д.Найдандорж, Д.Оргил",
       softwareDeveloper: "Программ хөгжүүлэгч: Д.Оргил",
 
       contactInformation: "Холбоо барих",
@@ -269,8 +270,9 @@ export const translations = {
       coreMembers: "Project core members",
 
       projectInvestigators: "Project investigators: Enkhjargal.B, Erkigul.B",
-      researchers: "Researchers: Buyanchimeg.B, Ulambayar.T",
-      others: "Others: Enkhbat.T, Lkhagvasuren.Ts",
+      researchers: "Researchers: Buyanchimeg.B, Ulambayar.T, Onon.O",
+      others: "Others: Enkhbat.T, Lkhagvasuren.Ts, Damdinsuren.D",
+      otherss: "Others: Rentsenkhand.Z, Naidandorj.D, Orgil.D",
       softwareDeveloper: "Software developer: Orgil.D",
 
       contactInformation: "Contact information",
